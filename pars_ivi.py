@@ -24,6 +24,6 @@ j = 1
 resp = get_html(j)
 while resp.status_code == 200:
     pars(resp)
-    j += 1000
+    j += 1
     resp = get_html(j)
 fout.close()
