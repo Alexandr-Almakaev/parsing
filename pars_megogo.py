@@ -9,7 +9,7 @@ fout = open('base_megogo.txt', 'w', encoding='UTF-8')
 
 
 def get_html(k):
-    url = 'https://megogo.ru/ru/films/page_{}'.format(j)
+    url = 'https://megogo.ru/ru/films/page_{}'.format(k)
     return req.get(url)
 
 
